@@ -1,6 +1,6 @@
 # Context
 
-* This lambda is behind the idea of https://staticman.net/ for publising comments into static sites.
+* This lambda is based on the idea behind of https://staticman.net/ for publising comments into static sites.
 * Is compatible with github.com and gitlab.com APIs.
 * It expects an "user" in the event.requestContext.authorizer.user (in my PoCs request are authorized with JWT/AWS API GW Custom Authorizer)
 
